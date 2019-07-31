@@ -17,8 +17,8 @@ const GlobalStyle = createGlobalStyle`
 		src:
 			url('${RobotoCondensedBold}') format('truetype')
   }
-  body{
-  font-family: 'Roboto Condensed', sans-serif;
+  body {
+  	font-family: 'Roboto Condensed', sans-serif;
   }
 `;
 
