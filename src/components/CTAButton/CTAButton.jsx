@@ -1,16 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import StyledCTAButton from './StyledCTAButton';
+
+import CTAButtonStyle from './CTAButtonStyle';
 
 const propTypes = {
   name: PropTypes.string.isRequired
 };
-const displayName = 'CTAButton';
-const CTAButton = ({ name }) => {
-  // eslint-disable-next-line no-unused-expressions
-  <StyledCTAButton>{name}</StyledCTAButton>;
-};
 
+const CTAButton = ({ name }) => <CTAButtonStyle>{name}</CTAButtonStyle>;
+
+const displayName = 'CTAButton';
 CTAButton.displayName = displayName;
 CTAButton.propTypes = propTypes;
+
 export default CTAButton;

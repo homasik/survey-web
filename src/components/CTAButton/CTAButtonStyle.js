@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const StyledCTAButton = styled.button`
+const CTAButtonStyle = styled.button`
   background-color: ${props => props.theme.color6};
   width: 100%;
   height: 50px;
@@ -9,4 +9,4 @@ const StyledCTAButton = styled.button`
   color: ${props => props.theme.color1};
 `;
 
-export default StyledCTAButton;
+export default CTAButtonStyle;

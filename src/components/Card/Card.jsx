@@ -1,13 +1,16 @@
 import React from 'react';
-import CardContainer from './StyledCard';
+import PropTypes from 'prop-types';
+
+import CardStyle from './CardStyle';
+
+const propTypes = {
+  children: PropTypes.element.isRequired
+};
+
+const Card = ({ children }) => <CardStyle>{children}</CardStyle>;
 
 const displayName = 'Card';
-
-const Card = () => (
-  <CardContainer>
-    <p>some content</p>
-  </CardContainer>
-);
-
 Card.displayName = displayName;
+Card.propTypes = propTypes;
+
 export default Card;
