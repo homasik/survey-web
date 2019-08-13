@@ -4,15 +4,15 @@ import Grid from 'styled-components-grid';
 import StudentBottomMenuStyle from './StudentBottomMenuStyle';
 
 const StudentBottomMenu = () => (
-  <Grid halign="center">
-    <StudentBottomMenuStyle>
-      <Grid.Unit size={0.25}>trainings</Grid.Unit>
-    </StudentBottomMenuStyle>
-    <StudentBottomMenuStyle>
-      <Grid.Unit size={0.25}>home</Grid.Unit>
-    </StudentBottomMenuStyle>
+  <Grid halign="center" wrap={false}>
+    <Grid.Unit size={1} style={{
+      background: 'blue',
+      position: 'absolute',
+      bottom: '0'
+    }}><StudentBottomMenuStyle>Home</StudentBottomMenuStyle></Grid.Unit>
   </Grid>
 );
+
 const displayName = 'StudentBottomMenu';
 StudentBottomMenu.displayName = displayName;
 

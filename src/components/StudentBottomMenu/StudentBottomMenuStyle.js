@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const StudentBottomMenuStyle = styled(Link)`
   font-size: 14px;
   text-decoration: none;
-  color: blue;
+  color: ${props=>props.theme.color1};
 `;
 
 export default StudentBottomMenuStyle;
