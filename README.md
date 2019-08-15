@@ -8,20 +8,22 @@ https://ninjamock.com/s/9925NDx
 
 - userSession
   - UserId
-  - token ??
+  - token ??? (what else will be used for authentication)
   - userName
 - userProfile (when Profile page is opened)
 - surveys
   - when Home page of a student is opened
   - when student History is opened (button 'H')
   - when student Tests is opened (button 'T')
+  - when admin Tests is opened
 - questions (for currently opened survey)
 - admins
 - teachers
 - students
-- ??? newSurvey
+- survey
   - name
-  - newQuestions
+  - questions
+- surveyStudents
 
 ## Decisions
 - Home page for students will be exactly the same as for admins
