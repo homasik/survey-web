@@ -6,11 +6,16 @@ import MenuLink from '../MenuLink';
 
 const displayName = 'MenuItem';
 const propTypes = {
-  children: PropTypes.element.isRequired,
-  to: PropTypes.string.isRequired
+  to: PropTypes.string,
+  children: PropTypes.element
 };
 
-const MenuItem = ({ children, to }) => (
+const defaultProps = {
+  to: null,
+  children: ''
+};
+
+const MenuItem = ({ to, children }) => (
   <Grid.Unit>
     <MenuLink to={to}>{children}</MenuLink>
   </Grid.Unit>
@@ -18,5 +23,6 @@ const MenuItem = ({ children, to }) => (
 
 MenuItem.propTypes = propTypes;
 MenuItem.displayName = displayName;
+MenuItem.defaultProps = defaultProps;
 
 export default MenuItem;
