@@ -1,8 +1,10 @@
+import {grid} from 'styled-components-grid';
 import styled from 'styled-components';
 
-const CardStyle = styled.div`
+const Card = styled.div`
+  ${grid({})};
   border: 1px solid ${props => props.theme.color5};
   box-shadow: 1px 1px 5px ${props => props.theme.color5};
 `;
 
-export default CardStyle;
+export default Card;

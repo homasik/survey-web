@@ -1,7 +1,7 @@
 import React from 'react';
-import DeleteStyle from './DeleteStyle';
 
-const Delete = () => <DeleteStyle>X</DeleteStyle>;
+// eslint-disable-next-line react/button-has-type
+const Delete = () => <button>X</button>;
 
 const displayName = 'Delete';
 Delete.displayName = displayName;

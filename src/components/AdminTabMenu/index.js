@@ -1,3 +1,3 @@
-import AdminTabMenu from './AdminTabMenu';
+import AdminMenu from './AdminMenu';
 
-export default AdminTabMenu;
+export default AdminMenu;

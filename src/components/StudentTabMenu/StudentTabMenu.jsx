@@ -1,16 +1,21 @@
 import React from 'react';
 
-import StudentTabMenuPanelStyle from './StudentTabMenuPanelStyle';
-import StudentTabMenuStyle from './StudentTabMenuStyle';
+import MenuItem from '../MenuItem';
+import Menu from '../Menu';
+import MenuLink from '../MenuLink';
 
-const StudentTabMenu = () => (
-  <StudentTabMenuPanelStyle halign="justify" wrap={false}>
-    <StudentTabMenuStyle>Home</StudentTabMenuStyle>
-    <StudentTabMenuStyle>Profile</StudentTabMenuStyle>
-  </StudentTabMenuPanelStyle>
+const StudentMenu = () => (
+  <Menu>
+    <MenuItem>
+      <MenuLink>Home</MenuLink>
+    </MenuItem>
+    <MenuItem>
+      <MenuLink>Profile</MenuLink>
+    </MenuItem>
+  </Menu>
 );
 
-const displayName = 'StudentTabMenu';
-StudentTabMenu.displayName = displayName;
+const displayName = 'StudentMenu';
+StudentMenu.displayName = displayName;
 
-export default StudentTabMenu;
+export default StudentMenu;

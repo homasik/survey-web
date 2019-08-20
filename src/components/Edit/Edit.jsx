@@ -1,8 +1,7 @@
 import React from 'react';
 
-import EditStyle from './EditStyle';
-
-const Edit = () => <EditStyle> ... </EditStyle>;
+// eslint-disable-next-line react/button-has-type
+const Edit = () => <button> ... </button>;
 
 const displayName = 'Edit';
 Edit.displayName = displayName;
