@@ -4,6 +4,8 @@ import MenuItem from '../MenuItem';
 import Menu from '../Menu';
 import MenuLink from '../MenuLink';
 
+const displayName = 'AdminMenu';
+
 const AdminMenu = () => (
   <Menu>
     <MenuItem>
@@ -26,8 +28,6 @@ const AdminMenu = () => (
     </MenuItem>
   </Menu>
 );
-
-const displayName = 'AdminMenu';
 AdminMenu.displayName = displayName;
 
 export default AdminMenu;

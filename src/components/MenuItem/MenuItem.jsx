@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 import MenuLink from '../MenuLink';
 
 const displayName = 'MenuItem';
+
 const propTypes = {
   to: PropTypes.string,
   children: PropTypes.element
@@ -21,8 +22,8 @@ const MenuItem = ({ to, children }) => (
   </Grid.Unit>
 );
 
-MenuItem.propTypes = propTypes;
 MenuItem.displayName = displayName;
+MenuItem.propTypes = propTypes;
 MenuItem.defaultProps = defaultProps;
 
 export default MenuItem;

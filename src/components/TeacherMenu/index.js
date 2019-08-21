@@ -1,3 +1,3 @@
-import TeacherTabMenu from './TeacherTabMenu';
+import TeacherTabMenu from './TeacherMenu';
 
 export default TeacherTabMenu;

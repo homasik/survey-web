@@ -4,18 +4,21 @@ import MenuItem from '../MenuItem';
 import Menu from '../Menu';
 import MenuLink from '../MenuLink';
 
-const StudentMenu = () => (
+const displayName = 'TeacherMenu';
+
+const TeacherMenu = () => (
   <Menu>
     <MenuItem>
       <MenuLink>Home</MenuLink>
+    </MenuItem>
+    <MenuItem>
+      <MenuLink>Tests</MenuLink>
     </MenuItem>
     <MenuItem>
       <MenuLink>Profile</MenuLink>
     </MenuItem>
   </Menu>
 );
+TeacherMenu.displayName = displayName;
 
-const displayName = 'StudentMenu';
-StudentMenu.displayName = displayName;
-
-export default StudentMenu;
+export default TeacherMenu;
