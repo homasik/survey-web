@@ -16,6 +16,7 @@ const StudentMenu = () => (
     </MenuItem>
   </Menu>
 );
+
 StudentMenu.displayName = displayName;
 
 export default StudentMenu;

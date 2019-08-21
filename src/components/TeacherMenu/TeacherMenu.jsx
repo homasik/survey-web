@@ -19,6 +19,7 @@ const TeacherMenu = () => (
     </MenuItem>
   </Menu>
 );
+
 TeacherMenu.displayName = displayName;
 
 export default TeacherMenu;

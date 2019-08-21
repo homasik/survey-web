@@ -28,6 +28,7 @@ const AdminMenu = () => (
     </MenuItem>
   </Menu>
 );
+
 AdminMenu.displayName = displayName;
 
 export default AdminMenu;
