@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 const Button = styled.button`
-  width: 100%;
+  flex-basis: 0;
   font-size: ${props => props.theme.FontSize3}
-  height: 50px;
+  padding: ${props => props.theme.padding3}
   border: 1px solid ${props => props.theme.color5};
 `;
 
