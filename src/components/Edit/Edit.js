@@ -5,7 +5,6 @@ const Edit = styled(Button)`
   width: 50px;
   color: ${props => props.theme.color11};
   background: ${props => props.theme.color1};
-  border: none;
 `;
 
 export default Edit;
