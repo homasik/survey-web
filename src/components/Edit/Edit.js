@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import Delete from '../Delete';
+import Delete from '../Button';
 
-const Edit = styled(Delete)`
+const Edit = styled(Button)`
   color: ${props => props.theme.color4};
 `;
 
