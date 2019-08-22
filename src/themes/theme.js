@@ -13,11 +13,11 @@ const theme = {
   padding1: 10,
   padding2: 5,
   padding3: 2,
-  fontSize1: 24,
-  fontSize2: 18,
-  fontSize3: 14,
-  fontSize4: 12,
-  borderRadius1: 15,
-  borderRadius2: 5
+  fontSize1: '24px',
+  fontSize2: '18px',
+  fontSize3: '14px',
+  fontSize4: '12px',
+  borderRadius1: '15px',
+  borderRadius2: '5px'
 };
 export default theme;
