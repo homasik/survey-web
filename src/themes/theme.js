@@ -17,7 +17,7 @@ const theme = {
   fontSize2: 18,
   fontSize3: 14,
   fontSize4: 12,
-  borderRadius1: 5,
-  borderRadius2: 15
+  borderRadius1: 15,
+  borderRadius2: 5
 };
 export default theme;
